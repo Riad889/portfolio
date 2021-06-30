@@ -1,0 +1,203 @@
+.CONTAINER1{
+    height: 100vh;
+    width: 100%;
+}
+.CONTAINER2{
+    width: 100%;
+    height: 600px;
+    background-image: url('https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1027&q=80');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.LIST{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 3rem;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#INTRODUCTION_TEXT{
+    padding: 0;
+    margin: 0;
+    height: 525px;
+    width: 100%;
+    color: rgb(7, 6, 6);
+    
+}
+#INTRO_ROW{
+    height: 100%;
+    width: 100%;
+    
+}
+h1{
+    font-family: 'Dela Gothic One', cursive;
+    color: rgb(218, 16, 16);
+    transition: 1s;
+}
+input{
+   
+   margin:5px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    transition: 1s;
+}
+input:hover{
+    background: transparent;
+    border: 2px solid green;
+}
+input[type="button"]:hover{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.col-md-12 h1{
+    color: red;
+   
+}
+#sector1{
+    margin-top: 100px;
+}
+button{
+    margin-top: 20px;
+}
+
+#ABOUT_ME{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CARD{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    
+}
+#skills{
+    width: 100%;
+    height: 500px;
+    
+    
+   
+}
+.card-title{
+    text-align: center;
+}
+.card{
+    transition: 1s;
+    margin-left: 30px;
+}
+button{
+    border: 1px solid rgb(224, 81, 81);
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    background: transparent;
+    transition: 1s;
+}
+button:hover{
+    border: 1px solid rgb(224, 81, 81);
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    background-color: tomato;
+}
+h1:hover{
+    
+    font-size: 50px;
+    text-shadow: 1px 2px 3px 1px black;
+}
+.card:hover{
+    box-shadow:7px 10px 12px 14px black;
+
+}
+#FACEBOOK{
+    cursor: pointer;
+    transition: 1S;
+}
+#FACEBOOK:hover{
+    font-size: larger;
+    color: red;
+
+}
+#INSTAGRAM{
+    cursor: pointer;
+    transition: 1S;
+}
+#INSTAGRAM:hover{
+    font-size: larger;
+    color: red;
+}
+#TWITTER{
+    cursor: pointer;
+    transition: 1S;
+}
+#TWITTER:hover{
+    font-size: larger;
+    color: red;
+
+}
+.about-self{
+    text-align: center;
+    margin: 50px;
+}
+.dumy{
+    border: 2px solid tomato;
+    border-radius: 5px;
+    transition: 1s;
+    padding: 10px;
+    
+}
+.dumy:hover{
+    
+    box-shadow: 5px 7px 8px 10px black;
+}
+#contact{
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+.cs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#riad{
+    font-size: medium;
+    border: 3px solid tomato;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+#riad:hover{
+        box-shadow: 5px 4px 6px 7px black;
+}
+.foinni{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+    margin: 50px;
+}
+.thankyou{
+    margin: 50px;
+    text-align: center;
+}
+#_header{
+    cursor: pointer;
+}
